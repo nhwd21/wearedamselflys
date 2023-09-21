@@ -17,12 +17,13 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            max-height: 90vh; /* Set a maximum height to prevent overflow */
+            overflow-y: auto; /* Add vertical scrollbar if content overflows */
             color: white;
-            padding: 20px; /* Added padding to create space from the edges */
+            padding: 20px;
         }
         .headline {
-            font-size: 24px;
+            font-size: 30px;
             text-align: center;
             margin-bottom: 10px;
         }
